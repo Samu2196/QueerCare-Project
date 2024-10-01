@@ -1,5 +1,5 @@
-#QueerCare
-##Empowering LGBTQI+ Health and Wellness
+# QueerCare
+## Empowering LGBTQI+ Health and Wellness
 QueerCare is a comprehensive web application dedicated to promoting sexual health and overall wellness within the LGBTQI+ community. Our mission is to provide a supportive, inclusive, and informative platform where individuals can access a wealth of resources, manage their health proactively, and connect with a community of like-minded individuals. By addressing the unique health challenges faced by LGBTQI+ people, QueerCare aims to foster a sense of empowerment, knowledge, and solidarity.
 
 Our Mission
