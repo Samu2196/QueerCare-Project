@@ -25,7 +25,7 @@ import sendMessage from './sendMessage'
 import getChatMessages from './getChatMessages'
 import getAllChats from './getAllChats'
 import getChatParticipant from './getChatParticipant'
-import getCommunityAlert from './getCommunityAlert'
+
 
 const logic = {
     isUserLoggedIn,
@@ -55,7 +55,7 @@ const logic = {
     getChatMessages,
     getAllChats,
     getChatParticipant,
-    getCommunityAlert
+
 }
 
 export default logic

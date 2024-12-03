@@ -21,8 +21,8 @@ export default function Community() {
 
     useEffect(() => {
         try {
-            logic.getCommunityAlert()
-                .then(() => { })
+            // logic.getCommunityAlert()
+            //     .then(() => { })
             loadPosts()
         } catch (error) {
             console.error(error)
@@ -74,12 +74,13 @@ export default function Community() {
     return <>
         {rulesAccepted && <CommunityRulesAlert onAccept={handleAcceptRules} />}
 
-        {rulesAccepted && (
-            <Container className="flex flex-row items-center justify-around h-20">
-                <Heading className="flex flex-col justify-center items-center text-[#000000] text-[20px] font-bold h-12">QueerCareCommunity</Heading>
-                <Button onClick={handleCreatePostClick}><Image className="h-[30px] w-[30px]" src="./plusIcon.svg"></Image></Button>
-            </Container>)}
+        <Container className="flex flex-row items-center justify-around h-20">
+            <Heading className="flex flex-col justify-center items-center text-[#000000] text-[20px] font-bold h-12">QueerCareCommunity</Heading>
+            <Button onClick={handleCreatePostClick}><Image className="h-[30px] w-[30px]" src="./plusIcon.svg"></Image></Button>
+        </Container>
+
         {createPostVisible && <CreatePost onPostCreated={handlePostCreated} onCancelCreatePost={handleCancelCreatePostClick} />}
+
         <section className="flex flex-col gap-6 mb-24">
             {posts.length === 0 ? (
                 <Paragraph className="text-center text-gray-500">No chats yet.</Paragraph>
